@@ -1,0 +1,11 @@
+# Site settings
+title: Cleanweb Berkeley
+# email: your-email@domain.com
+description: "A working group meeting in the D-Lab to work on issues of utility power and water utilization."
+baseurl: ""
+url: "http://cleanweb.berkeley.edu"
+github_username: cwBerkeley
+
+# Build settings
+markdown: kramdown
+permalink: pretty
