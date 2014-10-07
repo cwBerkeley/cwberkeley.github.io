@@ -292,7 +292,7 @@ Full-Width Styles
   background: -o-linear-gradient(top, #373737, #212121);
   background: linear-gradient(top, #373737, #212121);
   background-image:url('../images/banner.jpg');
-  background-position:right;
+  background-position:center;
   width:851px;
   height:315px;
 }
