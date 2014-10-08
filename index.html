@@ -50,18 +50,6 @@ convening room in Barrows Hall room 356 (on the western end of the third floor)
 at UC Berkeley.
 </p>
 
-<h3> <a name="next-meeting" class="anchor" href="#next-meeting"><span
-            class="octicon octicon-link"></span></a>Meetings</h3>
-
-{% comment %}
-Putting the capture all on one line avoids indentation leading
-to a code snippet.
-{% endcomment %}
-{% capture post_list %}{% include post_list.md %}{% endcapture %}
-{{ post_list | markdownify }}
-
-
-
 <h3> <a name="typical-meeting-agenda" class="anchor"
         href="#typical-meeting-agenda"><span class="octicon
 octicon-link"></span></a>Typical Meeting Agenda</h3>
@@ -78,6 +66,17 @@ octicon-link"></span></a>Typical Meeting Agenda</h3>
 </ul>
 
 <p><em>Lighting Demo / Pitch / Round-up (5-10 min)</em></p>
+
+<h3> <a name="next-meeting" class="anchor" href="#next-meeting"><span
+            class="octicon octicon-link"></span></a>Meetings</h3>
+
+{% comment %}
+Putting the capture all on one line avoids indentation leading
+to a code snippet.
+{% endcomment %}
+{% capture post_list %}{% include post_list.md %}{% endcapture %}
+{{ post_list | markdownify }}
+
 
 <pre><code>We create and curate open-source code.
 We find and share links with open data.
