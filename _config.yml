@@ -8,4 +8,4 @@ baseurl: "/cwberkeley.github.io"
 
 # Build settings
 markdown: kramdown
-permalink: pretty
+permalink: /cwberkeley.github.io/:year/:month/:day/:title
