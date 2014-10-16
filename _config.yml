@@ -2,10 +2,10 @@
 title: Cleanweb Berkeley
 # email: your-email@domain.com
 description: "A working group meeting in the D-Lab to work on issues of utility power and water utilization."
-baseurl: "/cwberkeley.github.io"
-# url: ""
+# baseurl: "/cwberkeley.github.io"
+url: "/cwberkeley.github.io"
 # github_username: cwBerkeley
 
 # Build settings
 markdown: kramdown
-permalink: /cwberkeley.github.io/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
