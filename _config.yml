@@ -7,8 +7,6 @@ description: "A working group meeting in the D-Lab to work on issues of utility 
 # url: "/cwberkeley.github.io"
 
 # settings for serving cleanweb.berkeley.edu
-baseurl: ""
-url: ""
 github_username: cwBerkeley
 
 # Build settings
