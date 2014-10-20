@@ -3,10 +3,14 @@ title: Cleanweb Berkeley
 # email: your-email@domain.com
 description: "A working group meeting in the D-Lab to work on issues of utility power and water utilization."
 
-#url: "/cwberkeley.github.io"
-url: ""
+# settings for forked copy
+# baseurl: "/cwberkeley.github.io"
+# url: "/cwberkeley.github.io"
+
+# settings for serving cleanweb.berkeley.edu
 github_username: cwBerkeley
 
 # Build settings
 markdown: kramdown
-permalink: /:year/:month/:day/:title
+# permalink: /:year/:month/:day/:title
+permalink: pretty
