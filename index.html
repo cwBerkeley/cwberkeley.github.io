@@ -1,10 +1,19 @@
 ---
 layout: default
+title: Overview
 ---
-<h3><a name="welcome-to-cleanweb-berkeley" class="anchor"
-       href="#welcome-to-cleanweb-berkeley">
-    <span class="octicon octicon-link"></span></a>
-    Welcome to Cleanweb Berkeley</h3>
+{% comment %}
+The theme we picked is actually not set up for static content, so we are just
+calling this a post.
+{% endcomment %}
+
+<div id="post-info">
+  <div id="info-container">
+    <h1 id="title">Welcome to Cleanweb Berkeley</h1>
+  </div>
+</div>
+
+<div class="post">
 
 <p>
 <strong>A working group at <a href="http://www.berkeley.edu">the University
@@ -72,11 +81,13 @@ octicon-link"></span></a>Typical Meeting Agenda</h3>
 
 {% comment %}
 Putting the capture all on one line avoids indentation leading
-to a code snippet.
-{% endcomment %}
+to a code snippet. This is now completely disabled, as we have a post-list in
+the sidebar.
+
 {% capture post_list %}{% include post_list.md %}{% endcapture %}
 {{ post_list | markdownify }}
 
+{% endcomment %}
 
 <pre><code>We create and curate open-source code.
 We find and share links with open data.
@@ -150,3 +161,5 @@ Spring 2014)</h3>
 <p><a
     href="https://plus.google.com/b/112947358931165650753/events/cih2r42df1464h7po891lqb8tcg">February
 14, 2014</a></p>
+
+</div>
