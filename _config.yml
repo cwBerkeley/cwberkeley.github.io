@@ -6,9 +6,6 @@ description: "A working group meeting in the D-Lab to work on issues of utility 
 url: "/cwberkeley.github.io"
 # github_username: cwBerkeley
 
-# to run locally : 
-# bundle exec jekyll serve --baseurl '/cwberkeley.github.io'
-
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:day/:title
