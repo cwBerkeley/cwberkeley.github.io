@@ -1,0 +1,17 @@
+---
+layout: default
+---
+{% comment %}
+The theme we picked is actually not set up for static content, so we are just
+using post styling below (e.g. in the div).
+{% endcomment %}
+
+<div id="post-info">
+  <div id="info-container">
+    <h1 id="title">{{ page.title }}</h1>
+  </div>
+</div>
+
+<div class="post">
+  {{ content }}
+</div>
