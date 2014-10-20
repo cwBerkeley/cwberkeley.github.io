@@ -8,5 +8,5 @@ github_username: cwBerkeley
 
 # Build settings
 markdown: kramdown
-# permalink: /:year/:month/:day/:title
-permalink: pretty
+permalink: /:year/:month/:day/:title
+# permalink: pretty
