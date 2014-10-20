@@ -1,8 +1,7 @@
 ---
 layout: static
+title: Projects
 ---
-#Projects
-
 ##[EATGRID]({{ site.url }}/projects/eatgrid.html)
 Make energy analysis more accessible to assist researchers by providing API functions, hooks, and visualization tools.
 
