@@ -14,13 +14,12 @@ To edit and preview locally
 
         bundle exec jekyll serve --baseurl '/cwberkeley.github.io'
 
-    site will be at
+    site will be at   
 
     http://0.0.0.0:4000/cwberkeley.github.io/
 - Edit and commit changes
 - Preview on web on gh-pages branch
 
-    site will be at
-
+    site will be at  
     http://your_github_username.github.io/cwberkeley.github.io
 - Pull request
