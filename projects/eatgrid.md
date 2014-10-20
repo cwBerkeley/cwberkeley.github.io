@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: static
+title: Energy Access Toolbox Electricity Markets Data
 ---
-#Energy Access Toolbox Electricity Markets Data
 lead: Eric and Michaelangelo
 
 ###### Goals

@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: static
+title: Taxonomy Project
 ---
-#Taxonomy Project
 lead: Sustainable John
 
 ##### Goals

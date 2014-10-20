@@ -1,7 +1,7 @@
 ---
-layout: default
+layout: static
+title: Emissions Mapping
 ---
-#Emissions Mapping
 lead: Yang
 
 <http://mirthbottle.github.io/ghg/>
