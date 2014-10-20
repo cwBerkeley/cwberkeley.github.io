@@ -10,6 +10,9 @@ This page is served via [GitHub Pages](http://pages.github.com)
 To edit and preview locally
 ---------------------------
 - Fork repository
+- make origin remote point to your fork and upstream point to the original repo
+- delete CNAME file
+- edit _config.yml file as instructed in config file
 - Install gh-pages and type in terminal: 
 
         bundle exec jekyll serve --baseurl '/cwberkeley.github.io'
