@@ -65,7 +65,7 @@ a:hover {
 }
 
 .posts-list li {
-  text-align: center;
+  text-align: left;
   line-height: 1.75em;
 }
 
@@ -101,6 +101,7 @@ a:hover {
   margin-top: 1em;
   padding-top: 1.5em;
   padding-bottom: 1.25em;
+  padding-left: 1.5em;
 }
 
 .footer {
