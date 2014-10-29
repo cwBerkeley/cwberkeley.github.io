@@ -3,68 +3,81 @@ layout: static
 title: Welcome to Cleanweb Berkeley
 ---
 <p>
-<strong>A working group at <a href="http://www.berkeley.edu">the University
-of California, Berkeley</a></strong> that focuses on the transformative
-role of information technology on modern energy systems.  Cleanweb Berkeley
-shares knowledge, supports new ventures and enterprises, and builds tools
-together to do data-driven science, market, and policy research.
+  <strong>A working group at <a href="http://www.berkeley.edu">the University
+      of California, Berkeley</a></strong> that focuses on the transformative
+  role of information technology on modern energy systems.  Cleanweb Berkeley
+  shares knowledge, supports new ventures and enterprises, and builds tools
+  together to do data-driven science, market, and policy research.
 </p>
 
 <ul>
-    <li>Cultivating and supporting enterprise and new ventures in science,
-     policy, and business.
-    <li>Defining an open science agenda for supporting next generation energy
-     systems.
-    <li>Building shared research
+  <li>Cultivating and supporting enterprise and new ventures in science,
+    policy, and business.
+  <li>Defining an open science agenda for supporting next generation energy
+    systems.
+  <li>Building shared research
     infrastructure (open source code and datasets) for energy research and
     policy development in a data-driven world.
-    <li>Creating opportunities
+  <li>Creating opportunities
     for collaboration through hack-a-thons, meetings, and events.
-    <li>Partnering with like-minded groups across the Berkeley campus and beyond
+  <li>Partnering with like-minded groups across the Berkeley campus and beyond
     (like the <a href="http://breg.berkeley.edu">Berkeley Rural Energy
-Group</a>)
+      Group</a>)
 </ul>
 
 <p>
-<strong>NOTE</strong>: There used to be a group called "infoEnergy"...now
-combined with Cleanweb Berkeley. The new group kept the CWB name.
+  <strong>NOTE</strong>: There used to be a group called "infoEnergy"...now
+  combined with Cleanweb Berkeley. The new group kept the CWB name.
 </p>
 
 <h2> <a name="connect" class="anchor" href="#connect"><span class="octicon
-            octicon-link"></span></a>Connect</h2>
+								   octicon-link"></span></a>Connect</h2>
 
 <p><a href="https://groups.google.com/forum/#!forum/cwberkeley">Join the google
     group to stay up-to-date.</a></p>
+<p>Go to the repositories at 
+  <a href="http://github.com/cwberkeley">github.com/cwberkeley</a> and join the effort.</p>
+
+
 
 <h2> <a name="schedule" class="anchor" href="#schedule"><span class="octicon
-            octicon-link"></span></a>Schedule</h2>
+								     octicon-link"></span></a>Schedule</h2>
 
 <p>
-During the Fall and Spring we'll meet every <strong>Monday from 4-5
-PM</strong> in the <a href="http://dlab.berkeley.edu/contact-and-address">D-Lab</a>
-convening room in Barrows Hall room 356 (on the western end of the third floor)
-at UC Berkeley.
+  During the Fall and Spring we'll meet every <strong>Monday from 4-5
+    PM</strong> in the <a href="http://dlab.berkeley.edu/contact-and-address">D-Lab</a>
+  convening room in Barrows Hall room 356 (on the western end of the third floor)
+  at UC Berkeley.
 </p>
 
 <h3> <a name="typical-meeting-agenda" class="anchor"
         href="#typical-meeting-agenda"><span class="octicon
-octicon-link"></span></a>Typical Meeting Agenda</h3>
+						    octicon-link"></span></a>Typical Meeting Agenda</h3>
 
 <p><em>Hello and Announcements (5-10 min)</em></p>
 
 <p><em>Discussion and collaboration (30-40 min)</em></p>
 
 <ul>
-    <li>Group discussions of project progress
-    <li>Plan events (hackathon, workshops, etc.)
-    <li>Skill Presentations
-    <li>Collaborative work time
+  <li>Group discussions of project progress
+  <li>Plan events (hackathon, workshops, etc.)
+  <li>Skill Presentations
+  <li>Collaborative work time
 </ul>
 
 <p><em>Lighting Demo / Pitch / Round-up (5-10 min)</em></p>
 
-<h3> <a name="next-meeting" class="anchor" href="#next-meeting"><span
-            class="octicon octicon-link"></span></a>Meetings</h3>
+<h2> Latest Meeting Notes</h2>
+
+<div class="posts">
+  {% for post in site.posts limit: 1%}
+  <a class="post-title" href="{{ post.url }}">
+    <span class="post-date">{{ post.date | date_to_string }}</span>
+    {{ post.title }}
+  </a>
+  {{ post.content }}
+  {% endfor %}
+</div>
 
 {% comment %}
 Putting the capture all on one line avoids indentation leading
@@ -76,77 +89,30 @@ the sidebar.
 
 {% endcomment %}
 
-<pre><code>We create and curate open-source code.
-We find and share links with open data.
-Check it out in the repositories.
-</code></pre>
-
-
-<p>Go to the repositories at <a
-    href="http://github.com/cwberkeley">github.com/cwberkeley</a> and join the
-effort.</p>
-
-
-
 <h2> <a name="links" class="anchor" href="#links"><span class="octicon
-            octicon-link"></span></a>Links</h2>
+							       octicon-link"></span></a>Links</h2>
 
 <h3> <a name="d-lab" class="anchor" href="#d-lab"><span class="octicon
-            octicon-link"></span></a>D-Lab</h3>
+							       octicon-link"></span></a>D-Lab</h3>
 
 <p>The <a href="http://dlab.berkeley.edu/">D-Lab</a> supports data-intense
-social science research at UC Berkeley.  Our interdisciplinary group meets is a
-<a href="http://dlab.berkeley.edu/working-groups">D-Lab working group</a> and we
-meet in a D-Lab convening space.  </p>
+  social science research at UC Berkeley.  Our interdisciplinary group meets is a
+  <a href="http://dlab.berkeley.edu/working-groups">D-Lab working group</a> and we
+  meet in a D-Lab convening space.  </p>
 
 <h3> <a name="berkeley-rural-energy-group" class="anchor"
         href="#berkeley-rural-energy-group"><span class="octicon
-octicon-link"></span></a>Berkeley Rural Energy Group</h3>
+							 octicon-link"></span></a>Berkeley Rural Energy Group</h3>
 
 <p><a href="http://breg.berkeley.edu">BREG</a> is an important partner for
-infoEnergy's work in the off-grid space, providing a forum for engaging
-practitioners and academics who are working on energy issues in the developing
-world.  </p>
+  infoEnergy's work in the off-grid space, providing a forum for engaging
+  practitioners and academics who are working on energy issues in the developing
+  world.  </p>
 
 <h3> <a name="berkeley-energy-and-resources-collaborative" class="anchor"
         href="#berkeley-energy-and-resources-collaborative"><span class="octicon
-octicon-link"></span></a>Berkeley Energy and Resources Collaborative</h3>
+									 octicon-link"></span></a>Berkeley Energy and Resources Collaborative</h3>
 
 <p>We are a <a href="http://berc.berkeley.edu/programs/berc-communities/">BERC
     Community</a>.</p>
 
-<h2> <a name="archive" class="anchor" href="#archive"><span class="octicon
-            octicon-link"></span></a>Archive</h2>
-
-<p><a
-    href="http://www.alstone.co/wp-content/uploads/2013/12/infoEnergyAnnounce-799x1024.jpg">This
-was the flyer from the first infoEnergy meeting</a></p>
-
-<p>
-We used to broadcast parts of our meetings and archive basic notes publicly on 
-<a href="https://plus.google.com/b/112947358931165650753/112947358931165650753/about">
-our google plus page</a> and maybe we will again someday.
-</p>
-
-<h3> <a name="meeting-archive-for-infoenergy-group-spring-2014" class="anchor"
-        href="#meeting-archive-for-infoenergy-group-spring-2014"><span
-class="octicon octicon-link"></span></a>Meeting Archive (for infoEnergy Group
-Spring 2014)</h3>
-
-<p><a
-    href="https://plus.google.com/u/0/b/112947358931165650753/events/ccvl6pqt11bj2pj0nbq331po3ok">April
-11, 2014</a></p>
-
-<p>March 28, 2014: No Meeting <a
-    href="https://plus.google.com/b/112947358931165650753/events/cs4map02c6bjftdglt2sspo1m1o">March
-14, 2014</a></p>
-
-<p><a
-    href="https://plus.google.com/b/112947358931165650753/events/cglpm92gtk43j8it3h46hot2nd4">February
-28, 2014</a></p>
-
-<p><a
-    href="https://plus.google.com/b/112947358931165650753/events/cih2r42df1464h7po891lqb8tcg">February
-14, 2014</a></p>
-
-</div>
