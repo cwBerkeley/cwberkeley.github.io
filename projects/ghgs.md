@@ -2,9 +2,12 @@
 layout: static
 title: Emissions Mapping
 ---
-lead: Yang
+Members: Yang Ruan, Sustainable John Romankiewicz, Dav Clark
 
 <http://mirthbottle.github.io/ghg/>
+
+<img align="right" src="/images/demo2_sources_country.png" alt="energy maps" width="400">
+<img align="right" src="/images/ghgs_screenshot.png" alt="energy maps" width="400">
 
 ## Goals
 - Find ways of parsing global greenhouse gas emissions.  

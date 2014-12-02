@@ -2,7 +2,7 @@
 layout: static
 title: Taxonomy Project
 ---
-lead: Sustainable John
+Members: Sustainable John Romankiewicz, Yang Ruan, Rachel Lee
 
 ## Goals
  - Apply cleanweb Taxonomy framework to USA--> Global.  
@@ -17,6 +17,7 @@ lead: Sustainable John
 
 ## plan for semester
 Learn about methodology, apply to US, and assess needs and gaps in taxonomy.
+
 1. Call with Jack, assess data, 
 2. Clean Data and develop new data gathering products
 3. Pick a pilot sector and bolster datasets

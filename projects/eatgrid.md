@@ -2,9 +2,10 @@
 layout: static
 title: Energy Access Toolbox Electricity Markets Data
 ---
-lead: Eric, Michaelangelo, and Peter
+Members: Eric Munsing, Michaelangelo Tabone, Anna Schneider, and Peter Alstone
 
 <http://electricitymapper.appspot.com/><br>
+<https://github.com/WattTime/pyiso><br>
 
 <img align="center" src="/images/energy_map_screenshot.png" alt="energy maps" width="400">
 
