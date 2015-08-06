@@ -28,14 +28,26 @@
         </div>
         <div class="posts">
           <ul class="posts-list">
-            {% for post in site.posts %}
-              <li class="post-link">
-                <a class="post-title" href="{{ post.url }}">
-                  <span class="post-date">{{ post.date | date_to_string }}</span>
-                  {{ post.title }}
-                </a>
-              </li>
-            {% endfor %}
+	    <li class="post-link">
+              <a class="post-title" href="/projects">
+		Projects
+              </a>
+            </li>
+            <li class="post-link">
+              <a class="post-title" href="/minutes.html">
+		Meetings
+              </a>
+            </li>
+	    <li class="post-link">
+              <a class="post-title" href="/people.html">
+		People
+              </a>
+            </li>
+	    <li class="post-link">
+              <a class="post-title" href="/about.html">
+		About
+              </a>
+            </li>
           </ul>
         </div>
         <div class="footer">
@@ -45,7 +57,11 @@
             <a href="" class="footer-link">Twitter</a> <span class="separator">&bull;</span>
             -->
             <a href="https://github.com/{{ site.github_username }}"
-                class="footer-link">GitHub</a>
+               class="footer-link">GitHub</a>
+	    <a href="https://groups.google.com/forum/#!forum/cwberkeley"
+	       class="footer-link">GoogleGroup</a>
+	    <a href="https://www.facebook.com/pages/Cleanweb-Berkeley/296111370492236"
+	       class="footer-link">Facebook</a>
           </span>
         </div>
       </div>
