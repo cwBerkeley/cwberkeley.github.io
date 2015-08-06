@@ -1,10 +1,10 @@
 # Site settings
 title: Cleanweb Berkeley
 # email: your-email@domain.com
-description: "Information technology solutions to energy and resource challenges"
+description: "Information technology for managing resources and tackling environmental challenges"
 
 # for previewing your forked repo, uncomment the line below 
-baseurl: /cwberkeley.github.io
+# url: "/cwberkeley.github.io"
 
 github_username: cwBerkeley
 
