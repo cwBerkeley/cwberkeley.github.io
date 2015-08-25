@@ -9,7 +9,7 @@ Coming in October 2015! Stay tuned for more details.
 
 ## Cleanweb Berkeley members take top prizes at Sfuncube Hackathon
 
-<img align="center" src="/images/Hack2.jpt" width="350">
+<img align="center" src="/images/sfuncube.jpg" width="350">
 
 Local solar energy incubator Sfuncube hosted a solar energy themed hackathon in April 2015, and a number of BERC and Cleanweb Berkeley members took top prizes! About 15 different ideas were pitched, with 6 teams making it on to the second round. In the end, Jonathan Mather and Caroline Le Floch were part of the 1st place winning team ($5000!!) called ‘SolFox’, Eric Munsing made it to the finals with his team ‘SunBears’, while the team Susty was on ‘You’ve Got Sun’ won the People’s Choice Award ($1000!) by audience vote. To check out more highlights from the weekend, go to #hackthesun on Twitter.
 
