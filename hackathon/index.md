@@ -5,7 +5,8 @@ title: Cleanweb Berkeley Hackathons
 
 ## BERC Cleanweb Hackathon 3.0
 
-Coming in October 2015! Stay tuned for more details.
+##[BERC Cleanweb Hackathon 3.0]({{ site.url }}/hackathon/hack2015.html)
+Check out details of BERC Cleanweb's upcoming Hackathon! 
 
 ## Cleanweb Berkeley members take top prizes at Sfuncube Hackathon
 
